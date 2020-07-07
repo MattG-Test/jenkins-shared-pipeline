@@ -118,7 +118,7 @@ def call(Map config) {
         config.uploadFileSize =   "1m"
     }
 
-    config.registry = "sivarajp"
+    config.registry = "mgunter"
 
     if (config.ingressType?.trim() == "no-context")  {
         config.appContext = "/"
